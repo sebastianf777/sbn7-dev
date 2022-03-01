@@ -405,8 +405,7 @@ section {
 }
 @media (max-width: 769px) {
   .img-fluid{
-    max-width: none;
-    width: 50vw;
+    max-width: 95vw;
   }
 }
 
