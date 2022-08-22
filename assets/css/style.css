@@ -397,16 +397,30 @@ section {
 }
 .img_profile{
   display: flex;
+  width: 38.333333%;
+  margin: auto;
 }
 .img-fluid{
   max-width: 350px;
   width: 100%;
+  
   margin: auto;
+}
+@media (min-width: 769px) {
+  .img_profile{
+    width: 18.333333%;
+    margin: 0 0 auto 0;
+
+  }
 }
 @media (max-width: 769px) {
   .img-fluid{
     max-width: 95vw;
   }
+}
+.email-li{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /*--------------------------------------------------------------
