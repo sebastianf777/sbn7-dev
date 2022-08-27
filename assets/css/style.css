@@ -742,113 +742,201 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# Skills
 --------------------------------------------------------------*/
-.services .icon-box {
-  text-align: center;
-  padding: 70px 20px 80px 20px;
-  transition: all ease-in-out 0.3s;
-  background: #fff;
-  width: 100%;
-  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
-}
-.services .icon-box .icon {
-  margin: 0 auto;
-  width: 100px;
-  height: 100px;
+
+.skills-list{
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: space-around;
+/* z-index: 10; */
+/* position: relative; */
+
+}
+/* .skill{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  width: 150px;
+  height: 150px;
+  background-color: #fff;
+  box-shadow: 0px 5px 90px 0px rgba(132, 0, 0, 0.275);
+border-radius: 75px;
+justify-content: center;
+position: relative;
+} */
+.skill-js {
+  --bg-color: #ffff61;
+  --bg-color-light: #fff;
+  --text-color-hover: #4C5656;
+  --box-shadow-color: rgba(255, 97, 97, 0.48);
+}
+.skill-css {
+  --bg-color: #61d2ff;
+  --bg-color-light: #fff;
+  --text-color-hover: #4C5656;
+  --box-shadow-color: rgba(255, 97, 97, 0.48);
+}
+.skill-html {
+  --bg-color: #ffb561;
+  --bg-color-light: #fff;
+  --text-color-hover: #4C5656;
+  --box-shadow-color: rgba(255, 97, 97, 0.48);
+}
+.skill-php {
+  --bg-color: #e561ff;
+  --bg-color-light: #fff;
+  --text-color-hover: #4C5656;
+  --box-shadow-color: rgba(255, 97, 97, 0.48);
+}
+.skill-reactjs {
+  --bg-color: #4144f9;
+  --bg-color-light: #fff;
+  --text-color-hover: #4C5656;
+  --box-shadow-color: rgba(255, 97, 97, 0.48);
+}
+.skill-nodejs {
+  --bg-color: #1d6013;
+  --bg-color-light: #fff;
+  --text-color-hover: #4C5656;
+  --box-shadow-color: rgba(255, 97, 97, 0.48);
+}
+.skill-express {
+  --bg-color: #364a58;
+  --bg-color-light: #fff;
+  --text-color-hover: #4C5656;
+  --box-shadow-color: rgba(255, 97, 97, 0.48);
+}
+.skill-mysqli {
+  --bg-color: #1d6013;
+  --bg-color-light: #fff;
+  --text-color-hover: #4C5656;
+  --box-shadow-color: rgba(255, 97, 97, 0.48);
+}
+.skill-mongodb {
+  --bg-color: #52da3c;
+  --bg-color-light: #fff;
+  --text-color-hover: #4C5656;
+  --box-shadow-color: rgba(255, 97, 97, 0.48);
+}
+.skill-jquery {
+  --bg-color: #000300;
+  --bg-color-light: #fff;
+  --text-color-hover: #4C5656;
+  --box-shadow-color: rgba(255, 97, 97, 0.48);
+}
+.skill-jquery svg{
+  filter: invert();
+}
+.skill-jquery svg:hover{
+  filter: invert(0);
+}
+.skill-sass {
+  --bg-color: #a81aa8;
+  --bg-color-light: #fff;
+  --text-color-hover: #4C5656;
+  --box-shadow-color: rgba(255, 97, 97, 0.48);
+}
+.card {
+  width: 220px;
+  height: 321px;
+  background: #fff;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  transition: ease-in-out 0.3s;
+  align-items: center;
   position: relative;
-}
-.services .icon-box .icon i {
-  font-size: 36px;
-  transition: 0.5s;
-  position: relative;
-}
-.services .icon-box .icon svg {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.services .icon-box .icon svg path {
-  transition: 0.5s;
-  fill: #f5f5f5;
-}
-.services .icon-box h4 {
-  font-weight: 600;
-  margin: 10px 0 15px 0;
-  font-size: 22px;
-}
-.services .icon-box h4 a {
-  color: #45505b;
-  transition: ease-in-out 0.3s;
-}
-.services .icon-box p {
-  line-height: 24px;
-  font-size: 14px;
-  margin-bottom: 0;
-}
-.services .icon-box:hover {
-  border-color: #fff;
-  box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
-}
-.services .iconbox-blue i {
-  color: #47aeff;
-}
-.services .iconbox-blue:hover .icon i {
-  color: #fff;
-}
-.services .iconbox-blue:hover .icon path {
-  fill: #47aeff;
-}
-.services .iconbox-orange i {
-  color: #ffa76e;
-}
-.services .iconbox-orange:hover .icon i {
-  color: #fff;
-}
-.services .iconbox-orange:hover .icon path {
-  fill: #ffa76e;
-}
-.services .iconbox-pink i {
-  color: #e80368;
-}
-.services .iconbox-pink:hover .icon i {
-  color: #fff;
-}
-.services .iconbox-pink:hover .icon path {
-  fill: #e80368;
-}
-.services .iconbox-yellow i {
-  color: #ffbb2c;
-}
-.services .iconbox-yellow:hover .icon i {
-  color: #fff;
-}
-.services .iconbox-yellow:hover .icon path {
-  fill: #ffbb2c;
-}
-.services .iconbox-red i {
-  color: #ff5828;
-}
-.services .iconbox-red:hover .icon i {
-  color: #fff;
-}
-.services .iconbox-red:hover .icon path {
-  fill: #ff5828;
-}
-.services .iconbox-teal i {
-  color: #11dbcf;
-}
-.services .iconbox-teal:hover .icon i {
-  color: #fff;
-}
-.services .iconbox-teal:hover .icon path {
-  fill: #11dbcf;
+  box-shadow: 0 14px 26px rgba(0,0,0,0.04);
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0 15px 30px 0;
 }
 
+.card:hover {
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0,0,0,0.11),
+    0 24px 46px var(--box-shadow-color);
+}
+
+.card:hover .overlay {
+  transform: scale(4) translateZ(0);
+}
+
+.card:hover .circle {
+  border-color: var(--bg-color-light);
+  background: var(--bg-color);
+}
+
+.card:hover .circle:after {
+  background: var(--bg-color-light);
+}
+
+.card:hover p {
+  color: var(--text-color-hover);
+}
+
+.card:active {
+  transform: scale(1) translateZ(0);
+  box-shadow: 0 15px 24px rgba(0,0,0,0.11),
+    0 15px 24px var(--box-shadow-color);
+}
+
+.card p {
+  font-size: 17px;
+  color: #4C5656;
+  margin-top: 30px;
+  z-index: 1000;
+  transition: color 0.3s ease-out;
+}
+
+.circle {
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid var(--bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s ease-out;
+}
+
+.circle:after {
+  content: "";
+  width: 118px;
+  height: 118px;
+  display: block;
+  position: absolute;
+  background: var(--bg-color);
+  border-radius: 50%;
+  top: 7px;
+  left: 7px;
+  transition: opacity 0.3s ease-out;
+}
+
+.circle svg {
+  z-index: 10000;
+  transform: translateZ(0);
+}
+
+.overlay {
+  width: 118px;
+  position: absolute; 
+  height: 118px;
+  border-radius: 50%;
+  background: var(--bg-color);
+  top: 70px;
+  left: 50px;
+  z-index: 0;
+  transition: transform 0.3s ease-out;
+}
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
