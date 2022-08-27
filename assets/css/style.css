@@ -810,7 +810,7 @@ position: relative;
   --box-shadow-color: rgba(255, 97, 97, 0.48);
 }
 .skill-mysqli {
-  --bg-color: #1d6013;
+  --bg-color: linear-gradient(90deg, rgba(0,95,255,1) 0%, rgba(231,133,6,1) 100%);
   --bg-color-light: #fff;
   --text-color-hover: #fff;
   --box-shadow-color: rgba(255, 97, 97, 0.48);
