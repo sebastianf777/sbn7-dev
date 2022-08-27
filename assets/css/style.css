@@ -770,61 +770,61 @@ position: relative;
 .skill-js {
   --bg-color: #ffff61;
   --bg-color-light: #fff;
-  --text-color-hover: #4C5656;
+  --text-color-hover: #fff;
   --box-shadow-color: rgba(255, 97, 97, 0.48);
 }
 .skill-css {
   --bg-color: #61d2ff;
   --bg-color-light: #fff;
-  --text-color-hover: #4C5656;
+  --text-color-hover: #fff;
   --box-shadow-color: rgba(255, 97, 97, 0.48);
 }
 .skill-html {
   --bg-color: #ffb561;
   --bg-color-light: #fff;
-  --text-color-hover: #4C5656;
+  --text-color-hover: #fff;
   --box-shadow-color: rgba(255, 97, 97, 0.48);
 }
 .skill-php {
   --bg-color: #e561ff;
   --bg-color-light: #fff;
-  --text-color-hover: #4C5656;
+  --text-color-hover: #fff;
   --box-shadow-color: rgba(255, 97, 97, 0.48);
 }
 .skill-reactjs {
   --bg-color: #4144f9;
   --bg-color-light: #fff;
-  --text-color-hover: #4C5656;
+  --text-color-hover: #fff;
   --box-shadow-color: rgba(255, 97, 97, 0.48);
 }
 .skill-nodejs {
   --bg-color: #1d6013;
   --bg-color-light: #fff;
-  --text-color-hover: #4C5656;
+  --text-color-hover: #fff;
   --box-shadow-color: rgba(255, 97, 97, 0.48);
 }
 .skill-express {
   --bg-color: #364a58;
   --bg-color-light: #fff;
-  --text-color-hover: #4C5656;
+  --text-color-hover: #fff;
   --box-shadow-color: rgba(255, 97, 97, 0.48);
 }
 .skill-mysqli {
   --bg-color: #1d6013;
   --bg-color-light: #fff;
-  --text-color-hover: #4C5656;
+  --text-color-hover: #fff;
   --box-shadow-color: rgba(255, 97, 97, 0.48);
 }
 .skill-mongodb {
   --bg-color: #52da3c;
   --bg-color-light: #fff;
-  --text-color-hover: #4C5656;
+  --text-color-hover: #fff;
   --box-shadow-color: rgba(255, 97, 97, 0.48);
 }
 .skill-jquery {
   --bg-color: #000300;
   --bg-color-light: #fff;
-  --text-color-hover: #4C5656;
+  --text-color-hover: #fff;
   --box-shadow-color: rgba(255, 97, 97, 0.48);
 }
 .skill-jquery svg{
@@ -836,7 +836,7 @@ position: relative;
 .skill-sass {
   --bg-color: #a81aa8;
   --bg-color-light: #fff;
-  --text-color-hover: #4C5656;
+  --text-color-hover: #fff;
   --box-shadow-color: rgba(255, 97, 97, 0.48);
 }
 .card {
